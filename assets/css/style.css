@@ -1,0 +1,27 @@
+button {
+    margin: 10px;
+}
+
+.buttons  :hover {background-color:gold;}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+img{
+    max-width: 360px;
+}
+h1{
+    color: gold;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#submit {
+    margin-top:8.5px;
+}
