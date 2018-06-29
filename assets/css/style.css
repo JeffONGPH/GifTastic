@@ -11,12 +11,18 @@ p {
 
 img{
     width: 360px;
-    height: 500px;
+    height: 400px;
+}
+
+img :hover {
+    border: solid yellow 8px;
+    cursor: progress;
 }
 
 h1{
     color: gold;
     text-align: center;
+    font-weight: bolder;
 }
 
 form{
