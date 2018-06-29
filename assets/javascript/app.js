@@ -8,7 +8,6 @@ $(document).ready(function () {
     function renderButtons() {
         $(".buttons").empty()
         for (i = 0; i < players.length; i++) {
-
             var butt = $("<button>");
             butt.addClass("playername");
             butt.attr("data-name", players[i]);
