@@ -1,5 +1,5 @@
 //Global variable//
-var players = ["David Luiz", "Luis Suarez", "Zlatan Ibrahimovic", "Wayne Rooney", "Ronaldinho", "Roberto Carlos", "George Best", "Diego Maradona", "Dani Alves"];
+var players = ["David Luiz", "Luis Suarez","Eric Cantona", "Zlatan Ibrahimovic", "Wayne Rooney", "Ronaldinho", "Roberto Carlos", "Ronaldo", "Diego Maradona", "Dani Alves"];
 var input;
 
 $(document).ready(function () {
