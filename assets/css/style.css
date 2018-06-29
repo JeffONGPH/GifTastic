@@ -18,7 +18,7 @@ img {
     height: 400px;
 }
 
-.goAnimate :hover {
+.goAnimate:hover {
     border: solid yellow 8px;
     cursor: progress;
 }
@@ -54,6 +54,8 @@ form {
     border-radius: 6px;
     margin-top: 50px;
     padding: 4px 0;
+
+  
     position: absolute;
     z-index: 1;
 }
