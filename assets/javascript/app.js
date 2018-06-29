@@ -9,11 +9,11 @@ $(document).ready(function () {
         $(".buttons").empty()
         for (i = 0; i < players.length; i++) {
 
-            var b = $("<button>");
-            b.addClass("playername");
-            b.attr("data-name", players[i]);
-            b.text(players[i]);
-            $(".buttons").append(b);
+            var buttton = $("<button>");
+            button.addClass("playername");
+            button.attr("data-name", players[i]);
+            button.text(players[i]);
+            $(".buttons").append(button);
         }
     };
 
