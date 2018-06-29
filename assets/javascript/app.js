@@ -9,14 +9,13 @@ $(document).ready(function () {
         $(".buttons").empty()
         for (i = 0; i < players.length; i++) {
 
-            var but = $("<button>");
-            but.addClass("playername");
-            but.attr("data-name", players[i]);
-            but.text(players[i]);
-            $(".buttons").append(but);
+            var butt = $("<button>");
+            butt.addClass("playername");
+            butt.attr("data-name", players[i]);
+            butt.text(players[i]);
+            $(".buttons").append(butt);
         }
     };
-
 
     renderButtons();
 
