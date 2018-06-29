@@ -12,6 +12,7 @@ p {
 img{
     width: 360px;
 }
+
 h1{
     color: gold;
     text-align: center;
@@ -22,6 +23,7 @@ form{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 #submit {
     margin-top:8.5px;
 }
