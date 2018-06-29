@@ -9,7 +9,7 @@ $(document).ready(function () {
         $(".buttons").empty()
         for (i = 0; i < players.length; i++) {
             var butt = $("<button>");
-            butt.addClass("playername","btn btn-dark");
+            butt.addClass("playername btn btn-dark");
             butt.attr("data-name", players[i]);
             butt.text(players[i]);
             $(".buttons").append(butt);
