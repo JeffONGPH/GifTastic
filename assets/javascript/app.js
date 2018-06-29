@@ -40,8 +40,9 @@ $(document).ready(function () {
             console.log(response)
             for (i = 0; i < response.data.length; i++) {
                 var rating = "<div>" + "<p>" + "Rating: " + response.data[i].rating + "</P>" + "</div>";
-                var gif = "<div class='col-lg-4'>" + "<img src='" + response.data[i].images.fixed_height_still.url +
-                    "'data-still='" + response.data[i].images.fixed_height_still.url +
+                var tooltip = "<span class='bubble'>Click To Animate!</span>"
+                var gif = "<div class='col-lg-4 image-holder'>" + tooltip +"<img src='" + response.data[i].images.fixed_height_still.url +
+                  "'data-still='" + response.data[i].images.fixed_height_still.url +
                     "'data-animate='" + response.data[i].images.fixed_height.url +
                     "'data-state='still'  class='goAnimate'  >" + rating + "</div>"
 

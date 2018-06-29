@@ -1,36 +1,65 @@
 button {
     margin: 10px;
+    color: whitesmoke;
+    background-color: black;
 }
 
-.buttons  :hover {background-color:gold;}
+.buttons :hover {
+    background-color: gold;
+}
 
 p {
     text-align: center;
     font-weight: bold;
 }
 
-img{
+img {
     width: 360px;
     height: 400px;
 }
 
-img :hover {
+.image-holder :hover {
     border: solid yellow 8px;
     cursor: progress;
 }
 
-h1{
+h1 {
     color: gold;
     text-align: center;
     font-weight: bolder;
+    font-size: 100px;
 }
 
-form{
+form {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 #submit {
-    margin-top:8.5px;
+    margin-top: 8.5px;
+}
+
+.image-holder {
+    position: relative;
+    display: inline-block;
+}
+
+.image-holder .bubble {
+    visibility: hidden;
+    width: 250px;
+    background-color:gold;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    margin-top: 50px;
+    padding: 4px 0;
+
+  
+    position: absolute;
+    z-index: 1;
+}
+
+.image-holder:hover .bubble{
+    visibility: visible;
 }
