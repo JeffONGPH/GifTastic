@@ -4,6 +4,7 @@ var input;
 
 $(document).ready(function () {
 
+//render buttons function
     function renderButtons() {
         $(".buttons").empty()
         for (i = 0; i < players.length; i++) {
